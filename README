@@ -1,0 +1,11 @@
+#step- 1
+git clone https://github.com/srinivaschikkala/mytask.git
+cd repository
+
+# step-2
+poetry shell 
+poetry install 
+-- run the above commends  #Installed all required packeges
+
+#step-3
+ uvicorn api.main:app --reload #For start the server
